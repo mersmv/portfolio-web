@@ -1,31 +1,38 @@
 
 .header{
     width: 100%;
+    min-height:700px;
+    background-color: var(--backgroud---color);
+}
+
+.menu-container{
+    width: 40%;
+    font-family: 'Galvji Bold';
+    font-size: 2rem;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--dark-grey);
-    padding: 20px;
+    justify-content: center;
 }
 
-.light-dark__container{
+
+.title__intro{
+    width: 70%;
+    font-size: 10vw;
     display: flex;
-    align-items: center;
-    gap: 15px;
-    cursor: pointer;
-}
-.light__icon{
-    background-image: url('../../assets/images/noche.png');
-    background-size: contain;
-    width: 15px;
-    height: 15px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--secondary-color);
+
 }
 
-.dark__icon{
-    background-image: url('../../assets/images/dom.png');
-    background-size: contain;
-    width: 15px;
-    height: 15px;
+.subtitle__intro{
+    width: 60%;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
 }
