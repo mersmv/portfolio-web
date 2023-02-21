@@ -1,0 +1,40 @@
+.projects-section{
+    margin-top: 700px;
+    width: 100%;
+}
+
+.projects-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.project__link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px
+}
+
+.project__title{
+    font-size: 1.2rem;
+    font-family: 'Galvji Bold';
+}
+
+.title__icon{
+    font-size: 1.3rem;
+}
+
+.project__photo{
+    border-radius: 15px;
+    width: 100%;
+}

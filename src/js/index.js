@@ -12,9 +12,6 @@ function callback(entries, observer) {
     if (entry.isIntersecting) {
       presentationPhoto.classList.add('appear-left');
       presentationText.classList.add('appear-right');
-    } else {
-      presentationPhoto.classList.remove('appear-left');
-      presentationText.classList.remove('appear-right');
     }
   });
 }
